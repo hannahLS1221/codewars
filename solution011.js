@@ -12,5 +12,5 @@ Your goal in this kata is to determine which phrase the girls would say for a fl
 
 function howMuchILoveYou(nbPetals){ 
     let petals = ['I love you', 'a little', 'a lot', 'passionately', 'madly' ,'not all all']
-    return petals[(nbPetals - 1) % 6]
+    return petals[(nbPetals - 1) % petals.length]
     }
