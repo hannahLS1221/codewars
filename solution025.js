@@ -4,8 +4,8 @@ Examples (input -> output)
 6, "I"     -> "IIIIII"
 5, "Hello" -> "HelloHelloHelloHelloHello"*/
 
-function string(n, 's'){
-    console.log(s.length)
+function string(n, s){
+    return s.repeat(n)
 }
 
-string(6,'string')
+
